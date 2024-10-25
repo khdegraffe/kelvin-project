@@ -10,6 +10,7 @@ console.log(celsius);
 let fahrenheit = (celsius * (9/5) + 32);
 
 //The .floor() method used to round down the Fahrenheit temp, since it's often a decimal number when converted from Celsius.
+fahrenheit = Math.floor(fahrenheit);
 
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
 
